@@ -7,7 +7,7 @@ title:            Brent Danley
 tagline:          A Jekyll GitHub Page
 url:              http://brentdanley.com/
 paginate:         1
-baseurl:          /brentdanley
+baseurl:          ''
 author:
   name:           Brent Danley
   url:            https://twitter.com/brentdanley
