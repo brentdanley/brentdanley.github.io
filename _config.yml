@@ -19,5 +19,4 @@ github:
   repo:           https://github.com/brentdanley/brentdanley.github.io
 
 # Exclude
-exclude:
-  - sass
+exclude: [Gemfile, Gemfile.lock, config.rb, README.md]
