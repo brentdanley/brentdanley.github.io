@@ -1,12 +1,11 @@
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
 
 # Setup
 title:            Brent Danley
 tagline:          A Jekyll GitHub Page
-url:              http://brentdanley.com/
-paginate:         1
+url:              
+paginate:         
 baseurl:          /
 author:
   name:           Brent Danley
