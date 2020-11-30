@@ -2,8 +2,8 @@
 permalink:        pretty
 
 # Setup
-title:            Brent Danley
-tagline:          A Jekyll GitHub Page
+title:            Brent Danley's GitHub Projects
+tagline:          Brent Danley's GitHub Pages site, coded in Jekyll
 url:              
 paginate:         
 baseurl:          /
@@ -19,3 +19,13 @@ github:
 
 # Exclude
 exclude: [Gemfile, Gemfile.lock, config.rb, README.md]
+
+# Defaults
+defaults: 
+  scope:
+    path: "assets/img"
+  values:
+    image: true
+
+sass: 
+  sass_dir: _sass

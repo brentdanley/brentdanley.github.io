@@ -3,8 +3,9 @@ layout: default
 ---
 
 <div class="post">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <span class="post-date">{{ page.date | date_to_string }}</span>
+    <header class="header"><h1 class="post-title">{{ page.title }}</h1></header>
+    <div class="post-date"><i class="far fa-calendar-alt"></i> {{ page.date | date_to_string }}</div>
+    <div class="github_link">GitHub: <a href="https://github.com/brentdanley/{{page.repo-name}}">{{page.repo-name}} <i class="fas fa-external-link-alt"></i></a></div>
     {{ content }}
 </div>
 
@@ -14,7 +15,7 @@ layout: default
         {% for post in site.related_posts limit:3 %}
         <li>
             <h3>
-                <a href="{{ site.baseurl }}{{ post.url }}">
+                <a href="{{ post.url }}">
                     {{ post.title }}
                     <small>{{ post.date | date_to_string }}</small>
                 </a>

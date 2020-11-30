@@ -1,13 +1,40 @@
 ---
 ---
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 body {
-  width: 600px;
+  max-width: 900px;
   margin: 0 auto;
-  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: 'IBM Plex Mono', monospace;
+  padding: 0 25px;
 }
 
-.header {
-  background-color: #093273;
-  color: white;
-  padding: 20px;
+// List of posts on homepage
+.posts {
+  
+  .post {
+
+    .post-title {
+      font-family: 'Amatic SC', cursive;
+      text-decoration: none;
+      font-size: 28px;
+
+      a {
+        color: #093273;
+      }
+    }
+  }
 }
+
+.github_link {
+  font-size: 14px;
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+}
+
+@import '../_sass/header'

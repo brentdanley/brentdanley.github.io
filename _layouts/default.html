@@ -1,26 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 
-{% include head.html %}
+    {% include head.html %}
 
-<body>
+    <body>
 
-<div class="container content">
-    <div class="masthead">
-        <h3 class="masthead-title">
-            <a href="{{ site.baseurl }}" title="Home">{{ site.title }}</a>
-            <small>{{ site.tagline }}</small>
-        </h3>
-    </div>
+        {% include header.html %}
 
-    {{ content }}
+        <div class="container content">
 
-    <div class="footer">
-        <p>
-            &copy; {{ site.time | date: '%Y' }}. All rights reserved.
-        </p>
-    </div>
-</div>
+            {{ content }}
 
-</body>
+        </div>
+        
+        {% include footer.html %}
+
+    </body>
 </html>
