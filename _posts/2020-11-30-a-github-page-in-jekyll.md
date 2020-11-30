@@ -1,5 +1,9 @@
-[brentdanley.github.io](https://brentdanley.github.io)
-=====================
+---
+layout: post
+title: My GitHub Page, in Jekyll
+excerpt: This simple Jekyll site contains posts for each repository on my GitHub account
+repo-name: brentdanley.github.io
+---
 
 ## Purpose
 This site is primarily to summarize the various coding project repositories on my GitHub account. Each post is essentially the README for the respective project, along with additional information about the project. 
