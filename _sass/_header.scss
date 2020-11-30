@@ -1,0 +1,34 @@
+.masthead-title {
+
+  a {
+    text-decoration: none;
+    color: #093273;
+  }
+}
+  
+.header {
+  background-color: #093273;
+  padding: 20px;
+  font-family: 'Amatic SC', cursive;
+  display: flex;
+  align-items: center;
+  margin: 0 auto 15px;
+
+  .profile_picture {
+    width: 120px;
+    border: 6px solid white;
+    border-radius: 66px;
+    margin-right: 25px;
+  }
+
+  .post-title {
+    color: white;
+    margin: 0;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+  }
+}

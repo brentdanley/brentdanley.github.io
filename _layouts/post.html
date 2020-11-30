@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="post">
-    <div class="header"><h1 class="post-title">{{ page.title }}</h1></div>
+    <header class="header"><h1 class="post-title">{{ page.title }}</h1></header>
     <div class="post-date"><i class="far fa-calendar-alt"></i> {{ page.date | date_to_string }}</div>
     <div class="github_link">GitHub: <a href="https://github.com/brentdanley/{{page.repo-name}}">{{page.repo-name}} <i class="fas fa-external-link-alt"></i></a></div>
     {{ content }}

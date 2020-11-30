@@ -1,0 +1,58 @@
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 'copyright contact social';
+    background-color: #093273;
+    padding: 20px;
+    font-family: 'Amatic SC', cursive;
+    margin: 15px auto 0;
+    color: white;
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .copy_container {
+        grid-area: copyright;
+
+        .name {
+            font-size: 30px;
+            font-weight: bold;
+            margin: 0 0 5px;
+        }
+
+        .copyright {
+            margin: 0;
+        }
+    }
+
+    .social_icons {
+        grid-area: social;
+        display: flex;
+        margin: 0;
+        justify-self: right;
+        
+        a {
+            display: inline-block;
+            margin: 0 11px 0 0;
+        }
+    }
+
+    .contact_info {
+        grid-area: contact;
+        justify-self: center;
+    }
+
+    @media only screen and (max-width: 530px) {
+        grid-template-areas: 'social' 'copyright' 'contact';
+
+        .social_icons {
+            justify-self: left;
+        }
+
+        .copy_container {
+            margin-bottom: 15px;
+        }
+    }
+}

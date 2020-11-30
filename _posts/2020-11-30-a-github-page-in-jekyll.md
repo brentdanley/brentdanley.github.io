@@ -1,11 +1,15 @@
-[brentdanley.github.io](https://brentdanley.github.io)
-=====================
+---
+layout: post
+title: My GitHub Page, in Jekyll
+excerpt: This simple Jekyll site contains posts for each repository on my GitHub account
+repo-name: brentdanley.github.io
+---
 
-## Purpose
+### Purpose
 This site is primarily to summarize the various coding project repositories on my GitHub account. Each post is essentially the README for the respective project, along with additional information about the project. 
 
 ### Repository
-[https://github.com/brentdanley/brentdanley.github.io](https://github.com/brentdanley/brentdanley.github.io)
+[brentdanley.github.io](https://github.com/brentdanley/brentdanley.github.io)
 
 ### Hosting
 The site is hosted on GitHub at [brentdanley.github.io](https://brentdanley.github.io)
