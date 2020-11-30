@@ -4,6 +4,11 @@ layout: default
 
 <div class="post">
     <header class="header"><h1 class="post-title">{{ page.title }}</h1></header>
+    <ul class="post_tags"><i class="fas fa-tags"></i>
+        {% for tag in page.tags %}
+            <li>{{ tag }}</li>
+        {% endfor %}
+    </ul>
     <div class="post-date"><i class="far fa-calendar-alt"></i> {{ page.date | date_to_string }}</div>
     <div class="github_link">GitHub: <a href="https://github.com/brentdanley/{{page.repo-name}}">{{page.repo-name}} <i class="fas fa-external-link-alt"></i></a></div>
     {{ content }}
