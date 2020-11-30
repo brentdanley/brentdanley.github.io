@@ -1,0 +1,21 @@
+.post_tags {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 12px 0;
+
+    .fa-tags {
+        align-self: center;
+        color: rgb(71, 126, 136);
+        font-size: 24px;
+    }
+
+    li {
+        background-color: rgb(71, 126, 136);
+        padding: 6px 15px;
+        margin: 4px;
+        border-radius: 5px;
+        list-style-type: none;
+        color: white;
+    }
+}

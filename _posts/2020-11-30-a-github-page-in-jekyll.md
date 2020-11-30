@@ -1,8 +1,9 @@
 ---
 layout: post
-title: My GitHub Page, in Jekyll
-excerpt: This simple Jekyll site contains posts for each repository on my GitHub account
+title: "My GitHub Page, in Jekyll"
+excerpt: "This simple Jekyll site contains posts for each repository on my GitHub account"
 repo-name: brentdanley.github.io
+tags: ['jekyll', 'sass', 'markdown', 'css grid', 'css flexbox']
 ---
 
 ### Purpose
