@@ -12,6 +12,7 @@
   font-family: 'Amatic SC', cursive;
   display: flex;
   align-items: center;
+  margin: 0 auto 15px;
 
   .profile_picture {
     width: 120px;
@@ -22,6 +23,7 @@
 
   .post-title {
     color: white;
+    margin: 0;
   }
 
   a {
