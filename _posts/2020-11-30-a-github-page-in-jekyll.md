@@ -13,7 +13,7 @@ This site is primarily to summarize the various coding project repositories on m
 [brentdanley.github.io](https://github.com/brentdanley/brentdanley.github.io)
 
 ### Hosting
-The site is hosted on GitHub at [brentdanley.github.io](https://brentdanley.github.io)
+The site is hosted on GitHub at [https://brentdanley.github.io](https://brentdanley.github.io)
 
 ### Architecture
 The site is built on Jekyll, a static site generator I've used to build several websites. It's flexible, secure, and because it's static, **VERY** fast!
